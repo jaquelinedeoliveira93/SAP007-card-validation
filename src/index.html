@@ -6,9 +6,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <header>
+      <div id="root">
+        <h1>Mundo das Séries</h1>
+      </div>
+    </header>
+    <h6>Plano escolhido <strong>|</strong> Mensal <strong>|</strong> R$ 20,00</h6>
+    <main>
+      <form>
+        <label for="cartao">Número do cartão</label>
+        <input id="cartao" type="number" placeholder="####.####.####.####" name="cartao" required>
+        <label for="titular">Nome igual no cartão</label>
+        <input id="titular"type="text" placeholder="Maria Oliveira" name="titular">
+        <label for="validade">Válidade</label>
+        <input id="validade" type="date" placeholder="MM/AA" name="validade">
+        <label for="cvv">CVV</label>
+        <input id="cvv" type="number" placeholder="123" name="cvv">
+        <button type="submit">Finalizar</button>
+      </form>
+    </main>
     <script src="index.js" type="module"></script>
   </body>
 </html>
