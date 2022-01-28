@@ -15,14 +15,14 @@
     <main>
       <form>
         <label for="cartao">Número do cartão</label>
-        <input id="cartao" type="number" placeholder="####.####.####.####" name="cartao" required>
+        <input id="cartao" type="number" placeholder="####.####.####.####" name="numerocartao" maxlength="19">
         <label for="titular">Nome igual no cartão</label>
         <input id="titular"type="text" placeholder="Maria Oliveira" name="titular">
         <label for="validade">Válidade</label>
-        <input id="validade" type="date" placeholder="MM/AA" name="validade">
-        <label for="cvv">CVV</label>
-        <input id="cvv" type="number" placeholder="123" name="cvv">
-        <button type="submit" formaction="pagfinal.html">Finalizar</button>
+        <input id="validade" type="month" placeholder="MM/AA" name="validade">
+        <label for="cvc">CVC</label>
+        <input id="cvc" type="number" placeholder="123" name="cvc">
+        <button id="botao" type="submit">Finalizar</button>
       </form>
     </main>
     <footer>
