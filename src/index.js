@@ -1,11 +1,17 @@
-import validator from './validator.js';
+//import validator from './validator.js';//
 
-let campoCartao = document.getElementById("cartao");
-let numeroCartao = campoCartao.value;
+const botaoFinalizar = document.getElementById("botao");
+botaoFinalizar.addEventListener("click", construindoArray);
 
-const finalizar = document.getElementById("botao");
-finalizar.addEventListener("click", validator);
+function construindoArray(){
+    let numeroCartao = document.getElementById("cartao").value;
 
-let soma = 0;
+    for (let index = 0; index < numeroCartao.length; index++) {
+        let conjuntoDigitos = numeroCartao[index];
+        let digitosConvertidos = conjuntoDigitos.toString().splint("").reverse();
+        console.log(digitosConvertidos);
+    }
 
-console.log(validator);
+}
+
+//console.log(validator());//
