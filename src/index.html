@@ -6,26 +6,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="cabeçalho">
       <div id="root">
         <h1>Mundo das Séries</h1>
       </div>
     </header>
-    <h6>Plano escolhido <strong>|</strong> Mensal <strong>|</strong> R$ 20,00</h6>
-    <main>
+    <h6 class="subtitulo">Plano escolhido <strong>|</strong> Mensal <strong>|</strong> R$ 20,00</h6>
+    <main class="formulario">
       <form>
-        <label for="cartao">Número do cartão</label>
-        <input id="cartao" type="number" placeholder="####.####.####.####" name="cartao" maxlength="19">
-        <label for="titular">Nome igual no cartão</label>
-        <input id="titular"type="text" placeholder="Maria Oliveira" name="titular">
-        <label for="validade">Válidade</label>
-        <input id="validade" type="month" placeholder="MM/AA" name="validade">
-        <label for="cvc">CVC</label>
-        <input id="cvc" type="number" placeholder="123" name="cvc">
-        <button id="botao" type="submit">Finalizar</button>
+        <fieldset class="blocosdeinformacoes">
+          <label for="cartao" class="etiquetas">Número do cartão</label>
+          <input id="cartao" type="number" class="campo" placeholder="################" name="cartao" maxlength="19">
+          <label for="titular" class="etiquetas">Nome igual no cartão</label>
+          <input id="titular"type="text" class="campo" placeholder="Maria Oliveira" name="titular">
+        </fieldset>
+        <fieldset>
+          <label for="validade" class="etiquetas">Válidade</label>
+          <input id="validade" type="text" class="campo" placeholder="MM/AA" name="validade">
+          <label for="cvc" class="etiquetas">CVC</label>
+          <input id="cvc" type="number" class="campo" placeholder="123" name="cvc">
+        </fieldset>
+        <button id="botao" type="submit" class="botão">Finalizar</button>
       </form>
     </main>
-    <footer>
+    <footer class="rodapé">
       <p>Copyright © 2022 Mundo das Séries Inc. Todos os direito reservados.</p>
     </footer>
     <script src="index.js" type="module"></script>
