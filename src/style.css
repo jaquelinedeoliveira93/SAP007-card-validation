@@ -59,3 +59,20 @@ fieldset{
     padding-left: 2px;
     padding-bottom: 15px;
 }
+
+.confimacao{
+color: rgb(171, 241, 114);
+padding-top: 81px;
+padding-bottom: 40px;
+font-size: 45px;
+}
+  
+.mensagemFinal{
+color: white;
+padding-top: 240px;
+font-size: 35px;
+}
+
+#invalido{
+    color: white;
+}
