@@ -2,9 +2,9 @@ const validator = {
 
   isValid(numeroCartao) {
 
-    let digitos = Array.from(numeroCartao)
-    let digitosInvertidos = digitos.reverse()
-    let soma = 0
+    let digitos = Array.from(numeroCartao);
+    let digitosInvertidos = digitos.reverse();
+    let soma = 0;
 
     for (let index = 0; index < digitosInvertidos.length; index++) {
       if (index % 2 != 0) {
@@ -12,12 +12,10 @@ const validator = {
         if (digitosInvertidos[index] > 9) {
           digitosInvertidos[index] = digitosInvertidos[index] - 9
           soma = soma + Number(digitosInvertidos[index])
-        }
-        else {
+        } else {
           soma = soma + (digitosInvertidos[index])
         }
-      }
-      else {
+      } else {
         soma = soma + Number(digitosInvertidos[index])
       }
     }
@@ -27,7 +25,19 @@ const validator = {
     } else {
       return false
     }
-  }
-}
-  
-  export default validator;
+  },
+
+  maskify(numeroCartao) {
+    let mascara = ""
+    for (let index = 0; index < numeroCartao.length; index++) {
+      if (index < numeroCartao.length - 4) {
+        mascara = mascara + "#"
+      } else {
+        mascara = mascara + numeroCartao.charAt(index)
+      }
+    }
+    return mascara
+  },
+};
+
+export default validator;

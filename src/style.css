@@ -1,36 +1,38 @@
-*{
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  font-family: 'Courier New', Courier, monospace;
-}
-.cabeçalho{
-color: rgb(171, 241, 114);
-text-align: center;
-padding-top: 40px;
-padding-bottom: 40px;
-font-size: 45px;
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
-.subtitulo{
-color: white;
-text-align: center;
-padding-top: 40px;
-padding-bottom: 125px;
-font-size: 35px;
+.cabeçalho {
+    color: rgb(171, 241, 114);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 45px;
 }
 
-.rodapé{
-color: rgb(169, 228, 174);
-text-align: center;
-padding-top: 440px;
+.subtitulo {
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 125px;
+    font-size: 35px;
 }
 
-.etiquetas{
+.rodapé {
+    color: rgb(169, 228, 174);
+    text-align: center;
+    padding-top: 440px;
+}
+
+.etiquetas {
     color: white;
 }
 
-.botão{
+.botão {
     color: black;
     background-color: yellowgreen;
     border-radius: 4px;
@@ -41,38 +43,39 @@ padding-top: 440px;
     padding-top: 1px;
 }
 
-.campo{
+.campo {
     background-color: white;
     border: 1px solid rgb(214, 204, 204);
     border-radius: 2px;
     font-size: 20px;
 }
 
-.formulario{
+.formulario {
     text-align: center;
     font-size: 20px;
 }
 
-fieldset{
+fieldset {
     border: none;
     padding-right: 2px;
     padding-left: 2px;
     padding-bottom: 15px;
 }
 
-.confimacao{
-color: rgb(171, 241, 114);
-padding-top: 81px;
-padding-bottom: 40px;
-font-size: 45px;
-}
-  
-.mensagemFinal{
-color: white;
-padding-top: 240px;
-font-size: 35px;
+.confirmação {
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    font-size: 45px;
 }
 
-#invalido{
+.mensagemFinal {
     color: white;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+
+#invalido, #qntdDigitos {
+    color: rgb(201, 50, 50);
 }
