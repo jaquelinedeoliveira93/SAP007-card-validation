@@ -14,20 +14,20 @@
     <h6 class="subtitulo">Plano escolhido <strong>|</strong> Mensal <strong>|</strong> R$ 20,00</h6>
     <main class="formulario">
       <form>
-        <fieldset class="blocosdeinformacoes">
-          <label for="cartao" class="etiquetas">Número do cartão</label>
-          <input id="cartao" type="number" class="campo" placeholder="################" name="cartao">
-          <label for="titular" class="etiquetas">Nome igual no cartão</label>
-          <input id="titular" type="text" class="campo" placeholder="Maria Oliveira" name="titular">
+        <fieldset class="blocosdeinformacoes1">
+          <label for="cartao" class="etiquetas nCartao">Número do cartão</label>
+          <input id="cartao" type="number" class="campo inputCartao" placeholder="################" name="cartao">
+          <label for="validade" class="etiquetas valiAte">Válidade</label>
+          <input id="validade" type="text" class="campo valiAte" placeholder="MM/AA" name="validade">
         </fieldset>
-        <fieldset>
-          <label for="validade" class="etiquetas">Válidade</label>
-          <input id="validade" type="text" class="campo" placeholder="MM/AA" name="validade">
-          <label for="cvc" class="etiquetas">CVC</label>
-          <input id="cvc" type="number" class="campo" placeholder="123" name="cvc">
+        <fieldset class="blocosdeinformacoes2">
+          <label for="titular" class="etiquetas nome">Nome igual no cartão</label>
+          <input id="titular" type="text" class="campo nome" placeholder="Maria Oliveira" name="titular">
+          <label for="cvc" class="etiquetas codigoVerificacao">CVC</label>
+          <input id="cvc" type="number" class="campo codigoVerificacao" placeholder="123" name="cvc">
         </fieldset><br>
-        <p id="invalido"></p><br>
-        <p id="qntdDigitos"></p><br>
+        <p id="invalido" class="alerta"></p><br>
+        <p id="qntdDigitos" class="alerta"></p><br>
         <button id="botao" type="submit" class="botão">Finalizar</button>
       </form>
     </main>

@@ -40,7 +40,7 @@ alt="Página informando que o número do cartão é inválido"></p>
 
 ---
 
-## 🚀 Como Executar o Projeto e Pré-requisitos
+## 🚀 Como Executar o Projeto
 Para conseguir rodar a aplicação e os teste é necessário ter instalado na sua máquina o [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/)  e um editor de código da sua escolha.
 
 - No terminal, clone o projeto:
@@ -69,5 +69,5 @@ Para realizar os testes, faça o seguinte:
 
 ---
 
-## 👩‍💻 Autor
+## 👩‍💻 Autora
 Jaqueline de Oliveira - [LinkedIn](https://www.linkedin.com/in/jaquelinedeoliveiraa/) - [GitHub](https://github.com/jaquelinedeoliveira93)
