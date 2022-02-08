@@ -27,6 +27,16 @@ Na página ao digitar os números de um cartão válido e clicar no botão “Fi
 ---
 
 ## 🎨 Layout
+Web
+<p align="center"><img src="paginaPagamento.png" alt="formulário de pagamento no centro da página com um botão"></p>
+<p align="center">Imagem 1. Página onde o usuário coloca seus dados para finalizar a assinatura.</p>
+
+<p align="center"><img src="assinaturaConcluida.png" alt="Página confirmando a assinatura"></p>
+<p align="center">Imagem 2. Página que confirma a assinatura, consequentemente a validade do cartão.</p>
+
+<p align="center"><img src="cartaoInvalido.png" 
+alt="Página informando que o número do cartão é inválido"></p>
+<p align="center">Imagem 3. Página informando que o número do cartão é inválido.</p>
 
 ---
 
