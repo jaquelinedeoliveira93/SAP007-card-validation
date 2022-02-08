@@ -1,0 +1,83 @@
+* {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.cabeçalho {
+    color: rgb(171, 241, 114);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+
+.subtitulo {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 125px;
+    font-size: 35px;
+}
+
+.rodapé {
+    color: rgb(169, 228, 174);
+    padding-top: 353px;
+}
+
+.etiquetas {
+    color: white;
+}
+
+.botão {
+    color: black;
+    background-color: yellowgreen;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    height: 31px;
+    font-size: 17px;
+    width: 106px;
+    padding-top: 1px;
+}
+
+.campo {
+    background-color: white;
+    border: 1px solid rgb(214, 204, 204);
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.formulario {
+    font-size: 20px;
+}
+
+.blocosdeinformacoes1 {
+    border: none;
+    padding-right: 3px;
+    padding-bottom: 20px;
+    padding-left: 3px;
+}
+
+.blocosdeinformacoes2 {
+    border: none;
+    padding-right: 110px;
+    padding-bottom: 13px;
+    padding-left: 4px;
+}
+
+.confirmação {
+    color: white;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+
+.mensagemFinal {
+    color: white;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+.alerta {
+    color: rgb(201, 50, 50);
+}
