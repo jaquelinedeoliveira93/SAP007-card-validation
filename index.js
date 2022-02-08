@@ -12,7 +12,7 @@ let msgQntdDigitos = document.getElementById("qntdDigitos");
   if (numeroCartao.length >= 12 && numeroCartao.length <= 16){
     let resultado = validator.isValid(numeroCartao);
     if (resultado === true) {
-      window.location.href = "/pagfinal.html"
+      window.location.href = "pagfinal.html"
     } else {
       msgCartaoInvalido.textContent = mascara + " Cartão de crédito inválido"
     }
