@@ -4,11 +4,11 @@
 ## Índice
 
 - [Descrição](#-descrição)
-- [Funcionalidades](#----funcionalidades)
+- [Funcionalidades](#-funcionalidades)
 - [Layout](#-layout)
-- [Como Executar o Projeto e Pré-requisitos](#----como-executar-o-projeto-e-pré-requisitos)
-- [Tecnologias utilizadas](#----tecnologias-utilizadas)
-- [Autor](#----autor)
+- [Como Executar o Projeto e Pré-requisitos](#-como-executar-o-projeto-e-pré-requisitos)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Autor](#-autor)
 
 ---
 
@@ -19,7 +19,7 @@ Na página ao digitar os números de um cartão válido e clicar no botão “Fi
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️Funcionalidades
 - Verifica se o número do cartão digitado pelo usuário é valido ou não.
 - Adverte caso o usuario digite um número insuficientes de dígitos.
 - Esconde através da “#” os primeiros números do cartão deixando visível apenas os quatro últimos.
@@ -40,7 +40,7 @@ alt="Página informando que o número do cartão é inválido"></p>
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀Como Executar o Projeto
 Para conseguir rodar a aplicação e os teste é necessário ter instalado na sua máquina o [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/)  e um editor de código da sua escolha.
 
 - No terminal, clone o projeto:
