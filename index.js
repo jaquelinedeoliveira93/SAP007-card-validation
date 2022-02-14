@@ -5,18 +5,17 @@ botaoFinalizar.addEventListener("click", verificarCartao);
 
 function verificarCartao(event) {
   event.preventDefault()
-  let numeroCartao = document.getElementById("cartao").value;
-  let mascara = validator.maskify(numeroCartao);
-  let msgCartaoInvalido = document.getElementById("invalido");
-let msgQntdDigitos = document.getElementById("qntdDigitos");
+  const numeroCartao = document.getElementById("cartao").value;
+  const mascara = validator.maskify(numeroCartao);
+  const msgErro = document.getElementById("erro");
   if (numeroCartao.length >= 12 && numeroCartao.length <= 16){
     let resultado = validator.isValid(numeroCartao);
     if (resultado === true) {
       window.location.href = "pagfinal.html"
     } else {
-      msgCartaoInvalido.textContent = mascara + " Cartão de crédito inválido"
+      msgErro.textContent = mascara + " Cartão de crédito inválido"
     }
   } else {
-    msgQntdDigitos.textContent = "Quantidade de números insuficiente"
+    msgErro.textContent = "Quantidade de números insuficientes"
   }
 }

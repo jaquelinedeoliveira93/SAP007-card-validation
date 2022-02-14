@@ -11,28 +11,53 @@
         <h1>Mundo das Séries</h1>
       </div>
     </header>
-    <h6 class="subtitulo">Plano escolhido <strong>|</strong> Mensal <strong>|</strong> R$ 20,00</h6>
+    <h2 class="subtitulo">Plano escolhido | Mensal | R$ 20,00</h2>
     <main class="formulario">
       <form>
         <fieldset class="blocosdeinformacoes1">
-          <label for="cartao" class="etiquetas nCartao">Número do cartão</label>
-          <input id="cartao" type="number" class="campo inputCartao" placeholder="################" name="cartao">
-          <label for="validade" class="etiquetas valiAte">Válidade</label>
-          <input id="validade" type="text" class="campo valiAte" placeholder="MM/AA" name="validade">
+          <label for="cartao" class="etiquetas">Número do cartão</label>
+          <input id="cartao" type="number" class="campo" placeholder="################" name="cartao">
+          <label for="validade" class="etiquetas">Válidade</label>
+          <select class="campo">
+            <option selected disabled value="">Mês</option>
+            <option value="jan">Jan</option>
+            <option value="fev">Fev</option>
+            <option value="mar">Mar</option>
+            <option value="abr">Abr</option>
+            <option value="maio">Maio</option>
+            <option value="jun">Jun</option>
+            <option value="jul">Jul</option>
+            <option value="ago">Ago</option>
+            <option value="set">Set</option>
+            <option value="out">Out</option>
+            <option value="nov">Nov</option>
+            <option value="dez">Dez</option>
+          </select>
+          <select class="campo">
+            <option selected disabled value="">Ano</option>
+            <option value="22">2022</option>
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+            <option value="27">2027</option>
+            <option value="28">2028</option>
+            <option value="29">2029</option>
+            <option value="30">2030</option>
+          </select>  
         </fieldset>
         <fieldset class="blocosdeinformacoes2">
-          <label for="titular" class="etiquetas nome">Nome igual no cartão</label>
-          <input id="titular" type="text" class="campo nome" placeholder="Maria Oliveira" name="titular">
-          <label for="cvc" class="etiquetas codigoVerificacao">CVC</label>
-          <input id="cvc" type="number" class="campo codigoVerificacao" placeholder="123" name="cvc">
+          <label for="titular" class="etiquetas">Nome igual no cartão</label>
+          <input id="titular" type="text" class="campo" placeholder="Maria Oliveira" name="titular">
+          <label for="cvc" class="etiquetas">CVC</label>
+          <input id="cvc" type="number" class="campo" placeholder="123" name="cvc">
         </fieldset><br>
-        <p id="invalido" class="alerta"></p><br>
-        <p id="qntdDigitos" class="alerta"></p><br>
+        <p id="erro" class="alerta"></p><br>
         <button id="botao" type="submit" class="botão">Finalizar</button>
       </form>
     </main>
     <footer class="rodapé">
-      <p>Copyright © 2022 Mundo das Séries Inc. Todos os direito reservados.</p>
+      <p>Copyright © 2022 Mundo das Séries Inc. Todos os direito reservados. Desenvolvido por Jaqueline de Oliveira.</p>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
