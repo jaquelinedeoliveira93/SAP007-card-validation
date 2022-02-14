@@ -3,12 +3,12 @@
 
 ## Índice
 
-- [Descrição](#descrição)
-- [Funcionalidades](#funcionalidades)
-- [Layout](#layout)
-- [Como Executar o Projeto e Pré-requisitos](#como-executar-o-projeto-e-pré-requisitos)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Autor](#autor)
+- [Descrição](#-descrição)
+- [Funcionalidades](#-funcionalidades)
+- [Layout](#-layout)
+- [Como Executar o Projeto e Pré-requisitos](#-como-executar-o-projeto-e-pré-requisitos)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Autor](#-autor)
 
 ---
 
