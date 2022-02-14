@@ -3,12 +3,12 @@
 
 ## Índice
 
-- [Descrição](#-descrição)
-- [⚙️ Funcionalidades](#funcionalidades)
-- [Layout](#-layout)
-- [🚀 Como Executar o Projeto](#como-executar-o-projeto)
-- [🛠️ Tecnologias utilizadas](#tecnologias-utilizadas)
-- [👩‍💻 Autora](#autora)
+- [Descrição](#💻-Descrição)
+- [Funcionalidades](#⚙️-Funcionalidades)
+- [Layout](#🎨-Layout)
+- [Como Executar o Projeto](#🚀-Como-Executar-o-Projeto)
+- [Tecnologias utilizadas](#🛠️-Tecnologias-utilizadas)
+- [Autor](#👩‍💻-Autora)
 
 ---
 
