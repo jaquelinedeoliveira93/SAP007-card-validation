@@ -60,7 +60,7 @@ Para realizar os testes, faça o seguinte:
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScrip
@@ -69,5 +69,5 @@ Para realizar os testes, faça o seguinte:
 
 ---
 
-## 👩‍💻 Autora
+## 👩‍💻Autora
 Jaqueline de Oliveira - [LinkedIn](https://www.linkedin.com/in/jaquelinedeoliveiraa/) - [GitHub](https://github.com/jaquelinedeoliveira93)
